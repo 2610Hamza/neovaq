@@ -248,3 +248,22 @@ footer {
         margin-left: 1rem;
     }
 }
+.history-section, .products-section, .usage-section, .certifications-section {
+  padding: 5rem 0;
+  background-color: #fdfaf5;
+}
+.products-section .product-grid, .usage-grid, .cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+.product-item img, .cert-item, .usage-item {
+  background: #ffffff;
+  border-radius: 6px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.advantages-list {
+  list-style: disc;
+  margin-left: 1.5rem;
+}
